@@ -5,28 +5,54 @@ import Image from "next/image"
 export function ExperienceSection() {
   const experiences = [
     {
-      period: "2024 - Present",
-      title: "Product Manager",
-      company: "NeuroSense",
+      period: "Feb 2026 — Present",
+      title: "Software Development Engineer (SDE) Intern",
+      company: "Bluestock Fintech",
+      location: "Bengaluru, Karnataka // Remote",
       description:
-        "Leading product strategy and development for my own startup project, focusing on innovative solutions and user-centered design approaches.",
-      icon: "/images/startup.png",
-    },
-    {
-      period: "2024 - Present",
-      title: "Social Media Manager & Strategist",
-      company: "Kuku FM",
-      description:
-        "Developing and executing social media strategies to grow brand awareness and engagement across multiple platforms.",
+        "Developing scalable fintech systems. Optimized SQL queries reducing load time by 40%, built 5+ responsive dashboard modules, and handled 10k+ financial data points daily.",
       icon: "/images/company.png",
+      tags: ["Scale", "Fintech", "SQL Optimization"],
     },
     {
-      period: "2022 - 2024",
-      title: "Graphic Designer",
-      company: "TriFitness Fitness Club",
+      period: "Dec 2025 — Present",
+      title: "Project Manager",
+      company: "ThinkNode",
+      location: "Mangaluru, Karnataka // On-site",
       description:
-        "Created visual content, branding materials, and marketing designs to enhance the club's digital presence and member engagement.",
+        "Leading strategic product planning and cross-functional team coordination to deliver innovative user-centric solutions. Focused on high-level strategy and vision.",
+      icon: "/images/startup.png",
+      tags: ["Strategy", "Project Management", "Leadership"],
+    },
+    {
+      period: "Oct 2025 — Present",
+      title: "AI Systems Architect // Founder",
+      company: "CardioNerve",
+      location: "Karnataka, India // On-site",
+      description:
+        "Developing an AI-powered risk assessment platform analyzing patient vitals in real-time via predictive modeling. Reduced latency by 30% and achieved 99% uptime in pilot tests aimed at remote area diagnostics.",
+      icon: "/images/startup.png",
+      tags: ["AI/ML", "HealthTech", "Systems Design"],
+    },
+    {
+      period: "Jul 2025 — Nov 2025",
+      title: "Open Source Contributor (GSSoC)",
+      company: "GirlScript Summer of Code",
+      location: "India // Remote",
+      description:
+        "Contributed to multiple open-source repositories and AI-driven systems. Focused on high-quality code, peer-reviews, and community collaboration.",
       icon: "/images/agency.png",
+      tags: ["Open Source", "Collaborative Dev", "Community"],
+    },
+    {
+      period: "Aug 2025 — Oct 2025",
+      title: "AI Intern",
+      company: "LaunchED Global",
+      location: "Bengaluru, Karnataka",
+      description:
+        "Worked on AI consulting projects. Developed 3 ML models for automated data labeling, improved classification accuracy by 15%, and processed 1M+ data rows.",
+      icon: "/images/agency.png",
+      tags: ["MLOps", "Python", "Data Processing"],
     },
   ]
 
@@ -39,8 +65,8 @@ export function ExperienceSection() {
               Take a look at my <span className="bg-[#6366F1] text-white px-3 py-1 inline-block">past experience</span>
             </h2>
             <p className="text-gray-400 mb-8 md:mb-10 leading-relaxed text-base md:text-lg">
-              From graphic design to product management, I've built a diverse skill set working with fitness brands,
-              audio platforms, and now leading my own startup venture.
+              Combining engineering expertise with strategic product thinking across AI/ML startup leadership, 
+              fintech development, and specialized AI consulting.
             </p>
             <Button className="bg-white text-black hover:bg-gray-50 rounded-lg py-5 px-8 md:py-[22px] md:px-[62px] text-base md:text-lg font-semibold h-auto w-full sm:w-auto sm:min-w-[240px]">
               <FileText className="w-5 h-5" />
@@ -72,10 +98,18 @@ export function ExperienceSection() {
                   <h3 className="text-xl md:text-[28px] leading-tight md:leading-[40px] font-bold text-[#0B0B0B] mb-1">
                     {exp.title}
                   </h3>
-                  <p className="text-[#6366F1] font-semibold text-base md:text-lg mb-2">{exp.company}</p>
-                  <p className="text-[#393939] text-base md:text-[18px] leading-relaxed md:leading-[28px]">
+                  <p className="text-[#6366F1] font-semibold text-base md:text-lg mb-1">{exp.company}</p>
+                  <p className="text-gray-500 text-sm md:text-base font-medium mb-3 italic">{exp.location}</p>
+                  <p className="text-[#393939] text-base md:text-[18px] leading-relaxed md:leading-[28px] mb-4">
                     {exp.description}
                   </p>
+                  <div className="flex flex-wrap gap-2">
+                    {exp.tags.map((tag, i) => (
+                      <span key={i} className="px-3 py-1 bg-gray-100 border border-black rounded-lg text-sm font-bold">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
             ))}

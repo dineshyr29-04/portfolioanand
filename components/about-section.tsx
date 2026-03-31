@@ -18,8 +18,9 @@ export function AboutSection() {
               Who's behind all this <span className="bg-[#2F81F7] text-white px-3 py-1 inline-block">great work?</span>
             </h2>
             <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-              I'm Anand Mahadev, a first-year Computer Science student from Mysore, India with a passion for creating
-              meaningful digital experiences through product management, design, and social media.
+              I'm Anand Mahadev, a Technical Product Lead and Founder. Recently, I was recognized as a 
+              <span className="font-bold text-black"> Top 74 Finalist at the OpenAI Buildathon 2026</span>.
+              I specialize in combining product discovery with engineering feasibility to ship impactful solutions.
             </p>
           </div>
 
@@ -27,9 +28,9 @@ export function AboutSection() {
             <div className="flex gap-4 items-start">
               <div className="w-5 h-5 bg-[#6366F1] border-2 border-black rounded-[5px] flex-shrink-0 mt-1"></div>
               <div>
-                <h3 className="text-lg md:text-xl font-bold mb-2">CSE Student & Designer</h3>
+                <h3 className="text-lg md:text-xl font-bold mb-2">Technical Product Lead</h3>
                 <p className="text-gray-600 text-sm md:text-base">
-                  Currently pursuing Computer Science while building expertise in product management and visual design.
+                  Bridging the gap between technical complexity and user needs to build scalable products with high business impact.
                 </p>
               </div>
             </div>
@@ -37,9 +38,9 @@ export function AboutSection() {
             <div className="flex gap-4 items-start">
               <div className="w-5 h-5 bg-[#FF6B7A] border-2 border-black rounded-[5px] flex-shrink-0 mt-1"></div>
               <div>
-                <h3 className="text-lg md:text-xl font-bold mb-2">Multi-disciplinary Creator</h3>
+                <h3 className="text-lg md:text-xl font-bold mb-2">Strategic Founder</h3>
                 <p className="text-gray-600 text-sm md:text-base">
-                  Combining technical knowledge with creative skills in graphic design and social media management.
+                  Leading the product vision for CardioNerve, from initial discovery and prototyping to strategic roadmap and growth.
                 </p>
               </div>
             </div>
