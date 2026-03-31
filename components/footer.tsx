@@ -54,7 +54,7 @@ export function Footer() {
                 <span className="text-lg md:text-xl font-bold">Anand Mahadev</span>
               </div>
               <p className="text-gray-400 mb-6 text-sm leading-relaxed">
-                Product Manager, Graphic Designer & Social Media Manager based in Mysore, India.
+                Technical Product Lead. Building at the intersection of AI, health-tech, and scalable software systems.
               </p>
               <div className="flex gap-3">
                 <a
