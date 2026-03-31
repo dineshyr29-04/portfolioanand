@@ -19,10 +19,9 @@ const onest = Onest({
 })
 
 export const metadata: Metadata = {
-  title: "Anand Mahadev - Product Manager & Graphic Designer",
+  title: "Anand Mahadev - Technical Product Lead & Founder | OpenAI Buildathon Finalist",
   description:
-    "Portfolio of Anand Mahadev - Product Manager, Graphic Designer, and Social Media Manager from Mysore, India",
-  generator: "v0.app",
+    "Anand Mahadev is a Technical Product Leader and CardioNerve Founder focused on AI and health-tech innovation. Top 74 Finalist @ OpenAI Buildathon 2026.",
 }
 
 export default function RootLayout({
